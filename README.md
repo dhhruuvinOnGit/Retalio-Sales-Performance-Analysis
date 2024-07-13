@@ -142,7 +142,7 @@ This dashboard, titled "Retalio Sales Performance Report," provides a comprehens
 
         Values = Total Sales
 
-    l. Profit by Channel
+    l. Profit by Channel -
 
         Pie chart
 
@@ -150,19 +150,19 @@ This dashboard, titled "Retalio Sales Performance Report," provides a comprehens
 
         Values = Total Profit
   
-    m. Top-10 Products
+    m. Top-10 Products -
 
         Columns = ProductName, Sum of Order Qty, Total Sales, Total Profit
 
         From Filter pane, filter the ProductName using Top N based on Total Sales.
 
-    n. Sales by State
+    n. Sales by State -
 
         Map
 
         Location = State
 
-    o. Total Sales and Profit by Zones
+    o. Total Sales and Profit by Zones -
 
         Line and Stacked column chart
 
@@ -172,7 +172,7 @@ This dashboard, titled "Retalio Sales Performance Report," provides a comprehens
 
         Line Y-axis = Total Profit
 
-    p. Sales by Promotion Name
+    p. Sales by Promotion Name -
 
         Stacked Bar chart
 
@@ -180,35 +180,56 @@ This dashboard, titled "Retalio Sales Performance Report," provides a comprehens
 
         X-axis = Total Sales
 
+     q. Sales by Discount Mode -
+
+        Donut chart
+
+        Legend = Promotion Type
+
+        Values = Total Sales
+
+     r. Profit by Discount Mode -
+
+        Pie chart
+
+        Legend = Promotion Type
+
+        Values = Total Profit
+
+     s. Forecasting
+
   
 ### Key Metrics and Visualizations:
   
-  -The total number of electric vehicles (EVs) in the dataset, with a figure of 150.48K.
+  -The total sales for the current year (CY) and the previous year (PY):
+	Current Year: 23.80M (39.3% increase from PY's 17.09M)
+	Previous Year: 21.94M (51% increase from PY's 15.73M)
   
-  -Average electric range of the vehicles is 67.88 kms.
+  -Total number of orders placed is 251K.
+
+  -Total number of unique products sold, totaling 1690
   
-  -BEVs (Battery Electric Vehicles): 117K, which is 77.6% of the total EVs.
-   PHEVs (Plug-in Hybrid Electric Vehicles): 34K, which is 22.4% of the total EVs.
+  -Fabrikam: Leading with the highest sales, around 4 million.
+   Contoso: Second highest, close to Fabrikam's sales.
+   Adventure Works: Third, with significant sales.
+   Wide World Importers, Proseware, The Phone Company, A. Datum, Southridge Video, Litware, Northwind Traders: Each with progressively lower sales.
   
-  -A line chart that shows the growth of EVs from 2010 onwards. The chart highlights significant growth over the years, peaking at 37K in 2023.
+  -Computers leading sales category with sales of $9.1 million.
   
-  -A treemap visualization showcasing the top 10 EV models by total number of vehicles. Notable models include:
-  Model Y: 28.50K
-  Model 3: 27.71K
-  LEAF: 13.19K
+  -Store is the major sales channel with 57.43% of total sales contributing 56.69% of total profit and Mobile Outlet is the smallest sales channel with 8.84% with 9.09% of total profit.
   
-  -A bar chart indicating the top vehicle manufacturers by the number of EVs. Tesla leads with 69K vehicles, followed by Nissan with 13K and Chevrolet with 12K.
+  -States with significant sales include:
+	Lagos
+	Kano
+	Kaduna
+	Osun
+	Niger
   
-  -A pie chart that classifies vehicles based on CAFV eligibility:
-  Unknown (Battery not researched): 17.83K (11.85%)
-  Eligible: 62.95K (41.83%)
-  Not Eligible: 69.7K (46.32%)
-  
-  -A map of the United States highlighting the distribution of EVs across different states, providing a geographical perspective on EV adoption.
+  -North West is the leading zone with sales over $4 million and the highest profit.
 
 
 ### Usage:
-This dashboard is designed for stakeholders and enthusiasts in the electric vehicle industry, including policymakers, manufacturers, and consumers. It can help identify trends, compare the performance of different EV models, and understand the impact of EVs in various regions.
+This dashboard is designed for stakeholders and enthusiasts in the retail and sales industries, including sales managers, marketing teams, and business analysts. It provides a comprehensive view of sales performance and key metrics to help identify trends, evaluate promotional effectiveness, and understand regional and product-specific sales dynamics.
 
 ### Dataset:
-https://drive.google.com/file/d/13-V3vR2QWJKjV1wzIElVTqgziOZ-YrCn/view?usp=sharing
+https://docs.google.com/spreadsheets/d/1RF2UG0zJ_BrKR7CqoSHaHxroSHvXQX2c/edit?usp=sharing&ouid=112148025722696529507&rtpof=true&sd=true
